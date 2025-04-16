@@ -1,6 +1,9 @@
 # gscp
+scpのラッパーとして機能し、scpの転送ジョブを`goroutine`の並列処理によって管理します。  
+  
 ```bash
-cd cmd && go build -o gscp main.go
+git clone https://github.com/haturatu/gscp.git
+cd gscp/cmd && go build -o gscp main.go
 ./gscp
 ```
 
